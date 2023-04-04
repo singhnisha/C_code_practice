@@ -15,7 +15,8 @@ int main(){
     r = n-1;
     while(l < r) {
         if (x == (arr[l]+arr[r])) {
-            cout << "Sum found with arr[l] is " << arr[l] << "arr[r] is " << arr[r] << endl;
+            cout << "Sum found with arr[l] is " << arr[l] << " arr[r] is " << arr[r] << endl;
+            return 1;
         }
         else if(x < (arr[l]+arr[r]))
             r--;
